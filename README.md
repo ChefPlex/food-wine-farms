@@ -11,7 +11,7 @@ The short version: I'm a chef, a wine educator, and a Technical Program Manager 
 ## The Projects
 
 ### Food Wine Farms
-**[foodwinefarms.com](https://foodwinefarms.com) Â· [Projects](https://foodwinefarms.com/projects/)**
+**[foodwinefarms.com](https://foodwinefarms.com)  [Projects](https://foodwinefarms.com/projects/)**
 
 The parent brand. Regional culinary guides covering wine country beyond the county line - wherever agriculture, culinary ambition, and a genuine sense of place converge. Locals-first. Honest picks. No filler, no ad relationships, no ranking algorithms.
 
