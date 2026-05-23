@@ -58,9 +58,11 @@ The Sonoma: Food Wine Farms iOS app is also live - same regional depth, native e
 
 Everything here was built solo, with AI tools doing most of the heavy lifting on code I didn't already know how to write. The distinction worth making: AI handles the production volume. The underlying expertise is mine.
 
-**Content and curation** - The guides are grounded in real knowledge of these regions - years of eating, drinking, shopping at farmstands, and knowing which winery pours honestly and which farmers market vendor actually grows what they're selling. That context is what makes the prompts produce something useful rather than generic. Claude, ChatGPT, and Grok are the tools. Prompt workflows were developed specifically for each guide type to keep quality consistent at scale. The goal was repeatable quality that reads like a person who knows the region, not a summarization of search results. Because it is.
+**Content and curation** - The guides are grounded in real knowledge of these regions - years of eating, drinking, shopping at farmstands, and knowing which winery pours honestly and which farmers market vendor actually grows what they're selling. That context is what makes the prompts produce something useful rather than generic. Prompt workflows were developed specifically for each guide type to keep quality consistent at scale. The goal was repeatable quality that reads like a person who knows the region, not a summarization of search results. Because it is.
 
-**App development** - Vibe-coded with Claude Sonnet as the primary tool. I described what I wanted, it wrote the code, I tested and directed. Managed the full App Store submission lifecycle - certificates, provisioning profiles, review process, release - without a development team. Nine apps shipped this way.
+Tools used for content: **ChatGPT** for research and initial drafts, **Claude Opus and Sonnet** for long-form content, refinement, and prompt development, **Grok** for image generation across the apps and guides.
+
+**App development** - Vibe-coded primarily with **Claude Sonnet** and **Claude Code (CLI)** - I described what I wanted, it wrote the code, I tested and directed. **Claude Cowork** for iterative session work. Managed the full App Store submission lifecycle - certificates, provisioning profiles, review process, release - without a development team. Nine apps shipped this way.
 
 **Web automation** - Cloudflare Pages for hosting, Ubuntu server for the content pipeline, automated weekly publishing. Set it up once, it runs. The goal was to remove the manual publishing bottleneck so the guides stay current without becoming a second job.
 
