@@ -68,6 +68,16 @@ Tools used for content: **ChatGPT** for research and initial drafts, **Claude Op
 
 ---
 
+## Quality Control
+
+Current-event, venue, and seasonal information goes stale fast. The pipeline helps keep the guides moving, but it does not get the final vote.
+
+AI helps with scale. It does not decide what belongs in the guide. The prompts work because they start from real local knowledge: regions I know well, sourcing patterns I care about, and the difference between a useful recommendation and something that reads like a tourism board produced it. Anything that reads generic, outdated, or venue-list-without-judgment gets rewritten or cut.
+
+Guides are reviewed through a mix of source checks, local knowledge, automated refreshes, and manual spot checks. The human review is not a nice-to-have. It is what separates a useful guide from a plausible-looking one that sends people to a restaurant that closed in 2023.
+
+---
+
 ## What I Learned
 
 Building this taught me things that a decade of managing technical programs hadn't - specifically, what it actually takes to ship software as a single person with no team, no budget, and no runway for delay.
