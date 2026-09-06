@@ -111,3 +111,8 @@ This project lives alongside my professional work in technical program managemen
 ---
 
 *Eric White - Glass Artist, Chef, Wine Guy, Cat Herder | Sonoma County, CA*
+
+## License
+
+Copyright (c) 2026 Eric White. Licensed under [CC BY 4.0](LICENSE): use it, adapt it, put it to
+work in your own program. Credit is the only condition.
