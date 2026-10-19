@@ -62,7 +62,7 @@ Everything here was built solo, with AI tools doing most of the heavy lifting on
 
 Tools used for content: **ChatGPT** for research and initial drafts, **Claude Opus and Sonnet** for long-form content, refinement, and prompt development, **Grok** for image generation across the apps and guides.
 
-**App development** - Vibe-coded primarily with **Claude Sonnet** and **Claude Code (CLI)** - I described what I wanted, it wrote the code, I tested and directed. **Claude Cowork** for iterative session work. Managed the full App Store submission lifecycle - certificates, provisioning profiles, review process, release - without a development team. Nine apps shipped this way.
+**App development** - Vibe-coded primarily with **Claude Sonnet** and **Claude Code (CLI)** - I described what I wanted, it wrote the code, I tested and directed. **Claude Cowork** for iterative session work. Managed the full App Store submission lifecycle - certificates, provisioning profiles, review process, release - without a development team. Nine apps shipped this way, and the build time per app fell from two months for the first to 24 hours by the end of the series.
 
 **Web automation** - Cloudflare Pages for hosting, Ubuntu server for the content pipeline, automated weekly publishing. Set it up once, it runs. The goal was to remove the manual publishing bottleneck so the guides stay current without becoming a second job.
 
@@ -80,7 +80,7 @@ Guides are reviewed through a mix of source checks, local knowledge, automated r
 
 ## What I Learned
 
-Building this taught me things that a decade of managing technical programs hadn't - specifically, what it actually takes to ship software as a single person with no team, no budget, and no runway for delay.
+Building this taught me things that twenty years of managing technical programs hadn't - specifically, what it actually takes to ship software as a single person with no team, no budget, and no runway for delay.
 
 The hardest part was not the code. It was making the content quality consistent at scale without reviewing every line manually. That is a prompt engineering problem, and it takes more iterations than you'd expect. The difference between a useful result and a generic one is almost always in the framing - and the framing requires knowing what good actually looks like.
 
