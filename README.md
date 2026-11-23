@@ -62,7 +62,7 @@ Everything here was built solo, with AI tools doing most of the heavy lifting on
 
 Tools used for content: **ChatGPT** for research and initial drafts, **Claude Opus and Sonnet** for long-form content, refinement, and prompt development, **Grok** for image generation across the apps and guides.
 
-**App development** - Vibe-coded primarily with **Claude Sonnet** and **Claude Code (CLI)** - I described what I wanted, it wrote the code, I tested and directed. **Claude Cowork** for iterative session work. Managed the full App Store submission lifecycle - certificates, provisioning profiles, review process, release - without a development team. Nine apps shipped this way, and the build time per app fell from two months for the first to 24 hours by the end of the series.
+**App development** - Vibe-coded in **Replit** and with **Claude Sonnet** and **Claude Code (CLI)** - I described what I wanted, it wrote the code, I tested and directed. **Claude Cowork** for iterative session work. Published to the App Store through **expogo**. Managed the full App Store submission lifecycle - certificates, provisioning profiles, review process, release - without a development team. Nine apps shipped this way, and the build time per app fell from two months for the first to 24 hours by the end of the series.
 
 **Web automation** - Cloudflare Pages for hosting, Ubuntu server for the content pipeline, automated weekly publishing. Set it up once, it runs. The goal was to remove the manual publishing bottleneck so the guides stay current without becoming a second job.
 
