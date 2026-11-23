@@ -80,7 +80,7 @@ Guides are reviewed through a mix of source checks, local knowledge, automated r
 
 ## What I Learned
 
-Building this taught me things that twenty years of managing technical programs hadn't - specifically, what it actually takes to ship software as a single person with no team, no budget, and no runway for delay.
+Building this taught me things that 15+ years of managing technical programs hadn't - specifically, what it actually takes to ship software as a single person with no team, no budget, and no runway for delay.
 
 The hardest part was not the code. It was making the content quality consistent at scale without reviewing every line manually. That is a prompt engineering problem, and it takes more iterations than you'd expect. The difference between a useful result and a generic one is almost always in the framing - and the framing requires knowing what good actually looks like.
 
