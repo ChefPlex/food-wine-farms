@@ -2,7 +2,7 @@
 
 **Eat well. Drink better. Know where to go.**
 
-This repo is the project home for everything under the Sonoma Chef and Food Wine Farms umbrella - a collection of culinary guides I've been building solo since 2025. Regional apps for the App Store. A weekly-updating web guide for Sonoma County. A content pipeline that runs without me touching it.
+This repo is the project home for everything under the Sonoma Chef and Food Wine Farms umbrella - a collection of culinary guides I've been building solo since 2025. Regional apps for the App Store. A weekly-updating web guide for Sonoma County. A content pipeline that publishes on its own schedule, with me spot-checking what it publishes.
 
 The short version: I'm a chef, a wine educator, and a Technical Program Manager who lives in Sonoma County. I've spent years at farmers market stalls before the crowds arrive, at winery tasting bars where the pours get more honest after noon, and in professional kitchens where sourcing actually matters. The knowledge behind these guides is real - what the AI does is help me produce it at a scale and speed I couldn't match writing everything by hand. The curation is mine. The judgment calls are mine. The tools just handle the volume.
 
@@ -40,7 +40,7 @@ Each app covers restaurants, wineries, farmstands, and seasonal events for its r
 
 **[sonomachef.com](https://sonomachef.com) & [Guides](https://sonomachef.foodanddrink.workers.dev/)**
 
-A regional culinary guide for Sonoma County with a web app that updates itself every week without me touching it. Five guide categories, regenerated on a schedule, published to Cloudflare Pages via an automated pipeline running on a cloud Ubuntu server.
+A regional culinary guide for Sonoma County with a web app that regenerates itself every week; I spot-check the output rather than publish it by hand. Five guide categories, regenerated on a schedule, published to Cloudflare Pages via an automated pipeline running on a cloud Ubuntu server.
 
 | Guide | What It Covers |
 |-------|---------------|
@@ -82,11 +82,11 @@ Guides are reviewed through a mix of source checks, local knowledge, automated r
 
 Building this taught me things that 15+ years of managing technical programs hadn't - specifically, what it actually takes to ship software as a single person with no team, no budget, and no runway for delay.
 
-The hardest part was not the code. It was making the content quality consistent at scale without reviewing every line manually. That is a prompt engineering problem, and it takes more iterations than you'd expect. The difference between a useful result and a generic one is almost always in the framing - and the framing requires knowing what good actually looks like.
+The hardest part was not the code. It was making the content quality consistent at scale without reviewing every line manually. That is a content-assurance problem: prompts, yes, but also where each fact came from, how fresh it is, what gets spot-checked, and what happens when something is wrong. It takes more iterations than you'd expect. The difference between a useful result and a generic one is almost always in the framing - and the framing requires knowing what good actually looks like.
 
 Shipping nine App Store apps is mostly an exercise in process management. The code is the easy part. The certificates, the metadata, the screenshots, the review responses, the release cadence - that is where solo developers lose time.
 
-Automation that works is worth ten times the effort to set it up. The weekly pipeline took real work to get right. Now it runs, and I've moved on to the next thing.
+Automation that works repays the effort of setting it up. The weekly pipeline took real work to get right. Now it runs, and I've moved on to the next thing.
 
 AI tools are genuinely useful for solo builders - but only if you treat them as collaborators you have to direct, not oracles you interrogate. Domain knowledge is the multiplier. Without it, you get plausible-sounding content that a local would immediately recognize as wrong.
 
